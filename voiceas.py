@@ -64,12 +64,12 @@ if __name__ == "__main__":
         
 
         if 'my name' in query: #tells my name
-            speak(' Sir, your name is daksh rana')
+            speak(' Sir, your name is aniket singh')
 
         elif 'my age' in query: #tells my age
             birth_year = int(2002)
-            birth_month = int(10)
-            birth_day = int(10)
+            birth_month = int(8)
+            birth_day = int(17)
  
             current_year = datetime.date.today().year
             current_month = datetime.date.today().month
@@ -84,7 +84,7 @@ if __name__ == "__main__":
             speak(f"Your age is: {age_year} years {age_month} months {age_day} days")
         
         elif 'live' in query: #tells my address
-            speak("Flat Number 901, Tower C, Nimai Greens, Bhiwadi Rajasthan")
+            speak("Delhi")
 
 
         elif 'wikipedia' in query: #search anything on wikipedia
